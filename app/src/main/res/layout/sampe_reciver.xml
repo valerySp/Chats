@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/profile_image"
+        android:src="@drawable/avatar3"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recLayout"
+        android:padding="4dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:background="@drawable/bg_reciver"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp">
+        <TextView
+            android:id="@+id/receiverText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints" />
+            <ImageView
+                android:id="@+id/imageFileRec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="7dp"
+                android:layout_below="@id/receiverText"
+                android:visibility="visible"
+                android:scaleType="fitStart"
+                android:maxWidth="220dp"
+                android:minWidth="50dp"
+                android:adjustViewBounds="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/receiverTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="15:56 pm"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/txt_seen_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="seen" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901367663480",
+    "project_id": "ourmsg-c33b9",
+    "storage_bucket": "ourmsg-c33b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901367663480:android:3dcc38b8c108a74ca0d68d",
+        "android_client_info": {
+          "package_name": "com.sparnyuk.ourmsg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901367663480-2biknm4go58emk4hlbidvq7cte3df4op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM4Crn0Pfnl7pcgOPfE0JSFJ3r4-Ujx7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901367663480-2biknm4go58emk4hlbidvq7cte3df4op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
